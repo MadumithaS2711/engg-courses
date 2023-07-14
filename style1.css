@@ -1,0 +1,119 @@
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    float: left;
+}
+.ri{
+    float: right;
+    color: white;
+    padding: 20px 200px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+header{
+    background-color: rgb(11, 11, 86);
+    height: 200px;
+    font-size: 40px;
+    color:white;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+img{
+    width: 170px;
+    height: 170px;
+    float:right;
+    padding-right: 250px;
+}
+.abouh{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+.abouy{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+    max-width: 100%;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    border-style: solid;
+    outline:10px;
+      
+}
+tr:nth-child(even){
+    background-color: #ccc;
+}
+.gallery{
+    border: 1 px solid #ccc;
+    
+}
+.gallery:hover{
+    border: 1 px solid #777;
+}
+ul.a{
+    list-style-type: disc;
+    float: none;
+  
+}
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+} 
+.column {
+    float: left;
+    width:50%;
+    padding: 15px;
+}
+  
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:400px) {
+    .column {
+      width: 100%;
+    }
+  }
+  h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  footer{
+    background-color: #111;
+    height: 250px;
+    font-size: 30px;
+    color:white;  
+}
